@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/c9/3f/1a/c93f1a5274536b8ec6c31855fe3c9b78.jpg">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container">
+      <span>Welcome to Our NYJ Science Project Website</span>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="photos/atom (1).png" alt="Poolax Logo" class="logo-img">
+        <span class="logo-text">Science Nerds</span>
+      </div>
+    
+        <a href="water.html" class="btn btn-primary nav-cta">OUR PROJECTS</a>
+        <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+  </nav>
+
+  <section class="banner-section">
+    <div class="banner-overlay"></div>
+    <div class="science-icons">
+      <span class="science-icon icon1"><i class="fas fa-flask"></i></span>
+      <span class="science-icon icon2"><i class="fas fa-atom"></i></span>
+      <span class="science-icon icon3"><i class="fas fa-dna"></i></span>
+      <span class="science-icon icon4"><i class="fas fa-microscope"></i></span>
+      <span class="science-icon icon5"><i class="fas fa-vials"></i></span>
+      <span class="science-icon icon6"><i class="fas fa-biohazard"></i></span>
+    </div>
+    <div class="banner-content">
+      <h4 class="banner-subtitle">BUILD, CHANGE, IMPACT</h4>
+      <h1 class="banner-title">Innovation<br>Meets Fun</h1>
+      <p class="banner-desc">
+       We are a group of students passionate about technology and innovation. Our website presents our latest project, including background, and methodologies. Browse around and see what we’ve accomplished!
+      </p>
+      <div class="banner-buttons">
+        <a href="https://akirachix.com/" class="btn btn-primary akira">AKIRACHIX</a>
+      </div>
+    </div>
+    <div class="banner-image">
+      <img src="https://plus.unsplash.com/premium_photo-1716981836479-6052305a64da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pool Cleaning" />
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('navToggle').onclick = function() {
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+  </script>
+
+
+  <section class="video-section">
+    <div class="video-col">
+      <div class="video-wrapper" 
+           onmouseenter="this.querySelector('video').play()" 
+           onmouseleave="this.querySelector('video').pause(); this.querySelector('video').currentTime=0;">
+        <video class="video-el" preload="none" poster="https://pplx-res.cloudinary.com/image/private/user_uploads/62628172/c259db61-133a-46cf-8f5f-ed97fc44e727/vid.jpg" muted loop>
+          <source src="photos/lv_0_20250430062339 (2).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+    </div>
+    <div class="video-col">
+      <div class="video-wrapper" 
+           onmouseenter="this.querySelector('video').play()" 
+           onmouseleave="this.querySelector('video').pause(); this.querySelector('video').currentTime=0;">
+        <video class="video-el" preload="none" poster="https://pplx-res.cloudinary.com/image/private/user_uploads/62628172/c259db61-133a-46cf-8f5f-ed97fc44e727/vid.jpg" muted loop>
+          <source src="photos/lv_0_20250515071156.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section">
+    <div class="services-header">
+      <h2 class="services-title">Meet The Team</h2>
+      <p class="services-subtitle">
+        Behind every great project is an even greater group of people. Get to know the creative minds, tech wizards, and idea generators who bring these project to life!
+      </p>
+    </div>
+    <div class="services-cards">
+   
+      <div class="service-card">
+        <div class="card-photo">
+          <img src="https://ca.slack-edge.com/T08BR1M9D6V-U08CFUFKL01-2efb03343c83-512" alt="Expert 1">
+        </div>
+        <div class="card-number">01</div>
+        <div class="card-category">EDITH MUTAI</div>
+        <p class="card-desc">"Working on these projects is always a holistic experience. From research, ideation, design, building, and prototyping. Sharpening our problem-solving, critical things and  learning cool things along the way."  </p>
+      </div>
+ 
+      <div class="service-card">
+        <div class="card-photo">
+          <img src="https://ca.slack-edge.com/T08BR1M9D6V-U08CFUE5R97-78f173db3e60-512" alt="Expert 2">
+        </div>
+        <div class="card-number">02</div>
+        <div class="card-category">HABTAMNESH MARYE</div>
+        <p class="card-desc">"The projects are more engaging to try and to wider our thinking box and helps to understand the scientific side it  more  and to develop problem solving skill."</p>
+      </div>
+  
+      <div class="service-card">
+        <div class="card-photo">
+          <img src="https://ca.slack-edge.com/T08BR1M9D6V-U08GQ6GKG84-52c51faeb94c-512" alt="Expert 3">
+        </div>
+        <div class="card-number">03</div>
+        <div class="card-category">IMMACULATE CHEPKIRUI</div>
+        <p class="card-desc">"It's always an adventure! From brainstorming designs to testing flow mechanics, every step was hands-on and exciting. The thrill of seeing a simple gravity-powered system work felt like magic. Plus, crafting something practical without electricity makes for a great conversation starter!"
+  </p>
+      </div>
+
+      <div class="service-card">
+        <div class="card-photo">
+          <img src="https://ca.slack-edge.com/T08BR1M9D6V-U08FVG2FL1G-be7a70d89532-512" alt="Expert 4">
+        </div>
+        <div class="card-number">04</div>
+        <div class="card-category">KISANET SHSHAY</div>
+        <p class="card-desc"> "The projects show initiative, creativity, practical skills, and a strong understanding of scientific concepts. They also encourage positive attitudes toward teamwork, environmental responsibility, and practical problem-solving!" </p>
+      </div>
+ 
+      <div class="service-card">
+        <div class="card-photo">
+          <img src="https://ca.slack-edge.com/T08BR1M9D6V-U08FVG0BG58-ad927dde37f5-512" alt="Expert 5">
+        </div>
+        <div class="card-number">05</div>
+        <div class="card-category">SHALINE DAVIDA</div>
+        <p class="card-desc">"The projects are very educative as they have opened up our minds to think outside the box and be good problem solvers .All the while being very engaging and fun and fostering unity and collaboration among the members."</p>
+      </div>
+
+      <div class="service-card">
+        <div class="card-photo">
+          <img src="https://ca.slack-edge.com/T08BR1M9D6V-U08C5PJHXNG-75168c04d567-192" alt="Expert 6">
+        </div>
+        <div class="card-number">06</div>
+        <div class="card-category">MERCY MWIKALI
+        </div>
+        <p class="card-desc"> "The projects give us a change to work together, think outside the box and have fun at the same time."
+  </p>
+      </div>
+    </div>
+    <div class="services-pagination">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <section class="services-main-section">
+    <div class="services-header">
+      <h2 class="services-title">Our Projects</h2>
+    </div>
+    <div class="services-cards-grid">
+   
+      <div class="service-card">
+        <div class="service-card-img">
+          <img src="https://i.pinimg.com/736x/18/85/11/188511f5f79f3dc1b62eefd84e102d75.jpg" alt="water dispenser">
+        </div>
+        <div class="service-card-content">
+          <h3 class="service-card-title">Water Dispenser</h3>
+          <p class="service-card-desc">
+                Join us as we explore gravity and air pressure and design something really cool.
+          </p>
+          <a href="water.html" class="service-card-btn">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card-img">
+          <img src="https://i.pinimg.com/736x/3d/0f/02/3d0f023f2afe4e6aae67ffb69440f070.jpg" alt="Board Game">
+        </div>
+        <div class="service-card-content">
+          <h3 class="service-card-title">Board Game</h3>
+          <p class="service-card-desc">
+            A board game where you play to build a highly competitive ecosystem of omnivores, carnivores and scavengers
+          </p>
+          <a href="board.html" class="service-card-btn">READ MORE</a>
+        </div>
+      </div>
+    
+<footer class="footer-centered">
+  <div class="footer-copyright">
+    © 2025 Science Nerds
+  </div>
+</footer>
+
+</body>
+</html>
