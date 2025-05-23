@@ -24,6 +24,12 @@ body {
   height: 70px;
 }
 
+.nav-button{
+display: flex;
+gap: 60px;
+margin-right: 40px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -423,9 +429,10 @@ body {
 
 .about-skill-title {
   color: var(--text-muted);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.45;
   margin-top: 10px;
+
 }
 
 .about-dot-decor {
@@ -748,10 +755,11 @@ body {
 }
 
 .content-text {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.6;
-  color: rgb(94, 93, 93);
+  color: rgb(59, 59, 59);
   margin: 0;
+  font-weight: 400;
 }
 
 @media (max-width: 900px) {

@@ -218,7 +218,7 @@ ul { list-style: none; }
   margin-bottom: 18px;
 }
 .banner-desc {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-bottom: 35px;
   color: #e0eafc;
   line-height: 1.6;
@@ -313,13 +313,13 @@ ul { list-style: none; }
   .top-bar, .nav-container { padding: 0 10px; }
 }
 
-
     .video-section {
       display: flex;
       gap: 20px;
       justify-content: center;
       align-items: stretch;
-      padding: 40px 0;
+      padding-top: 6%;
+      padding-bottom: 8%;
       max-width: 1200px;
       margin: 0 auto;
       margin-top: 50px;
@@ -810,7 +810,7 @@ ul { list-style: none; }
 }
 
 .footer-centered {
-  width: 100%;
+  max-width: 100%;
   background:  #eef6ff;
   border-top: 1px solid #f0f0f0;
   padding: 28px 0 22px 0;
